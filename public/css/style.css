@@ -1,0 +1,80 @@
+body{
+  margin:0;
+  background-color: #30475e;
+}
+
+/* REVIEW: title section */
+#title{
+  background-color: #f79071;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.main-heading{
+  text-align: center;
+  font-size: 3rem;
+  padding: 70px;
+  color:white;
+  width: 50%;
+  margin: 0 auto 0;
+  line-height: 1.5 ;
+}
+h3{
+  text-align: center;
+  color:white;
+  width: 50%;
+  margin: 0 auto 0;
+  font-weight: bolder;
+  padding-bottom: 40px;
+  font-size: 1.3rem;
+}
+/* navigation bar */
+.nav-link{
+  color: #30475e;
+  font-weight: bolder;
+}
+.navbar-brand{
+  color:#30475e;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.fas{
+  padding: 12px;
+  color:yellow;
+}
+.dis-head{
+  padding: 100px 20px 0 20px;
+  line-height: 3rem;
+  font-size: 2rem;
+  color:yellow;
+
+}
+.dis-para{
+  font-size:1rem;
+  color:white;
+  padding: 150px 20px 20px;
+  line-height: 1.5rem;
+}
+.dis-img{
+  width: 700px;
+  height: 500px;
+}
+.offer{
+  background-color: #f79071;
+  text-align: center;
+}
+.offer-head{
+  text-align: center;
+  font-size: 3rem;
+  padding: 70px;
+  color:white;
+  width: 50%;
+  margin: 0 auto 0;
+  line-height: 1.5 ;
+}
+.sign{
+margin:40px;
+}
+.titleName{
+  color: white;
+}
