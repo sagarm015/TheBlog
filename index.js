@@ -5,7 +5,7 @@ const mongoose= require("mongoose");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs");
-mongoose.connect("mongodb+srv://admin-sagar:testing4321@cluster0-yhcmp.mongodb.net/newBlogData",{ useNewUrlParser: true,useUnifiedTopology: true });
+mongoose.connect(,{ useNewUrlParser: true,useUnifiedTopology: true });
 
 const personSchema =new mongoose.Schema({
   firstName: String,
